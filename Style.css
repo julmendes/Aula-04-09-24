@@ -25,3 +25,21 @@ label {
     color: #800020; /* Cor vinho escura para os labels */
     margin-bottom: 5px;
 }
+/* Estilo dos inputs, textarea e select */
+input, textarea, select {
+    padding: 10px;
+    width: 100%; /* Input ocupa toda a largura disponível */
+    max-width: 400px; /* Define uma largura máxima */
+    border: 2px solid #520514; /* Borda vinho escura */
+    border-radius: 8px; /* Bordas arredondadas */
+    outline: none;
+    background-color: #c9a0a0; /* Fundo preto para os campos */
+    color: #ffffff; /* Texto branco para contraste */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Efeito ao focar nos campos */
+input:focus, textarea:focus, select:focus {
+    border-color: #800020; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(128, 0, 32, 0.5); /* Sombra vinho ao focar */
+}
