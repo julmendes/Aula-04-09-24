@@ -59,3 +59,9 @@ button:hover {
     background-color: #4b000f; /* Cor vinho escura ao passar o mouse */
     transform: scale(1.05); /* Efeito de leve aumento */
 }
+/* Estilo do corpo da página */
+body {
+    background-color: #c08383; /* Cor de fundo preta */
+    color: #e0e0e0; /* Cor do texto principal para contraste */
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
