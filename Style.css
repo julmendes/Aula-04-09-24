@@ -11,3 +11,17 @@ input{
     display: block; /*Quebra de linha */ 
     height: 30px; /*altura do campo */
 }
+/* Estilo para alinhar form, input e label */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os elementos à esquerda */
+    gap: 12px; /* Espaçamento entre os elementos */
+    margin: 20px;
+}
+/* Estilo dos labels */
+label {
+    font-size: 1.1em;
+    color: #800020; /* Cor vinho escura para os labels */
+    margin-bottom: 5px;
+}
